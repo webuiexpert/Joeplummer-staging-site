@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joe Plummer</title> <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Righteous&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <!-- Temporary notice styles -->
+  <style>
+    .site-notice {
+      background-color: #f0ad4e;
+      color: #333;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      font-family: 'Roboto', sans-serif;
+      border-bottom: 2px solid #ec971f;
+      position: relative;
+    }
+    
+    .site-notice-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .site-notice .close-notice {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      font-size: 20px;
+      line-height: 1;
+      opacity: 0.7;
+      transition: opacity 0.3s;
+    }
+    
+    .site-notice .close-notice:hover {
+      opacity: 1;
+    }
+    
+    @media (max-width: 768px) {
+      .site-notice {
+        font-size: 13px;
+        padding: 12px 40px 12px 20px;
+      }
+      
+      .site-notice .close-notice {
+        right: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body> 
+  <!-- Temporary Site Notice -->
+  <div class="site-notice" id="siteNotice">
+    <div class="site-notice-content">
+      <i class="fas fa-info-circle"></i> 
+      <strong>Notice:</strong> We're currently migrating to a new platform. Some pages may not function properly during this transition. Thank you for your patience!
+      <span class="close-notice" onclick="closeSiteNotice()">&times;</span>
+    </div>
+  </div>
+  
+  <!-- Header and Navigation -->
+  <header id="site-header" class="site-header">
+    <div class="header-inner">
+      <div class="header-image"> <a href="/"> <img src="/images/bio2_edited.avif" alt="Joe Plummer"
+            width="98" height="112" /> </a> </div>
+      <h1><a href="/">JoePlummer.com</a></h1>
+      <div class="twitter-follow"> <iframe title="Twitter Follow" aria-label="Twitter Follow" scrolling="no" width="93"
+          height="20"
+          src="https://platform.twitter.com/widgets/follow_button.html?screen_name=josephplummer&show_screen_name=false"></iframe>
+      </div>
+    </div> <!-- Mobile menu -->
+    <div class="mobile-container">
+      <div class="topnav">
+        <div class="icon" id="menuToggle"> <i class="fas fa-bars"></i> </div>
+        <div id="myLinks"> <a href="/joe-s-free-books.html">Joe's Books & Articles</a> <a
+            href="/video.html">Joe's Video Stuff</a> <a href="/stay-in-touch.html">Stay in
+            Touch</a> <a href="/contact.html">Contact</a> <a href="/donate.html">Donate?</a>
+        </div>
+      </div> <!-- Desktop menu -->
+      <div class="header-nav">
+        <nav class="main-nav" aria-label="Site Navigation">
+          <ul>
+            <li><a href="/joe-s-free-books.html">Joe's Books & Articles</a></li>
+            <li><a href="/video.html">Joe's Video Stuff</a></li>
+            <li><a href="/stay-in-touch.html">Stay in Touch</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/donate.html">Donate?</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header> <!-- ✅ JavaScript at the bottom -->
+  <script>    
+    function setupMenuToggle() { 
+      const toggle = document.getElementById("menuToggle"); 
+      const menu = document.getElementById("myLinks"); 
+      if (!toggle || !menu) return; 
+      toggle.addEventListener("click", function () { 
+        menu.style.display = menu.style.display === "block" ? "none" : "block"; 
+      }); 
+    }
+    
+    // Close notice function
+    function closeSiteNotice() {
+      const notice = document.getElementById('siteNotice');
+      if (notice) {
+        notice.style.display = 'none';
+        // Optional: Set a cookie to remember the user closed it
+        localStorage.setItem('siteNoticeHidden', 'true');
+      }
+    }
+    
+    // Check if user previously closed the notice
+    window.addEventListener('DOMContentLoaded', function() {
+      if (localStorage.getItem('siteNoticeHidden') === 'true') {
+        const notice = document.getElementById('siteNotice');
+        if (notice) notice.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+
+</html>

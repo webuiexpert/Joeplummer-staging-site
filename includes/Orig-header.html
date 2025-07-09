@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joe Plummer</title> <!-- Fonts and Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Righteous&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body> <!-- Header and Navigation -->
+  <header id="site-header" class="site-header">
+    <div class="header-inner">
+      <div class="header-image"> <a href="/"> <img src="/images/bio2_edited.avif" alt="Joe Plummer"
+            width="98" height="112" /> </a> </div>
+      <h1><a href="/">JoePlummer.com</a></h1>
+      <div class="twitter-follow"> <iframe title="Twitter Follow" aria-label="Twitter Follow" scrolling="no" width="93"
+          height="20"
+          src="https://platform.twitter.com/widgets/follow_button.html?screen_name=josephplummer&show_screen_name=false"></iframe>
+      </div>
+    </div> <!-- Mobile menu -->
+    <div class="mobile-container">
+      <div class="topnav">
+        <div class="icon" id="menuToggle"> <i class="fas fa-bars"></i> </div>
+        <div id="myLinks"> <a href="/joe-s-free-books.html">Joe's Books & Articles</a> <a
+            href="/video.html">Joe's Video Stuff</a> <a href="/stay-in-touch.html">Stay in
+            Touch</a> <a href="/contact.html">Contact</a> <a href="/donate.html">Donate?</a>
+        </div>
+      </div> <!-- Desktop menu -->
+      <div class="header-nav">
+        <nav class="main-nav" aria-label="Site Navigation">
+          <ul>
+            <li><a href="/joe-s-free-books.html">Joe's Books & Articles</a></li>
+            <li><a href="/video.html">Joe's Video Stuff</a></li>
+            <li><a href="/stay-in-touch.html">Stay in Touch</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/donate.html">Donate?</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header> <!-- ✅ JavaScript at the bottom -->
+  <script>    function setupMenuToggle() { const toggle = document.getElementById("menuToggle"); const menu = document.getElementById("myLinks"); if (!toggle || !menu) return; toggle.addEventListener("click", function () { menu.style.display = menu.style.display === "block" ? "none" : "block"; }); }  </script>
+</body>
+
+</html>

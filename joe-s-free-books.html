@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books, Articles, Letters | JoePlummer.com</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/includes.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Righteous&display=swap');
+        
+        /* Page header style to match Dishonest Money */
+        .page-header {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 30px;
+        }
+
+        .page-header h1 {
+            font-size: 24px;
+            font-weight: normal;
+            margin: 0;
+            color: #333;
+        }
+        
+        /* Website conversion notice */
+        .conversion-notice {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            margin-bottom: 15px;  /* Reduced from 30px */
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        /* Container and layout fixes */
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .sidebar {
+            flex: 0 0 250px;
+            margin-right: 30px;
+        }
+        
+        .main-content {
+            flex: 1;
+            min-width: 0;
+            border-right: 1px solid #000 !important;  /* Add right border back */
+            border-left: 1px solid #000 !important;   /* Add left border for framing */
+            padding: 0 20px;  /* Add padding so content doesn't touch borders */
+        }
+        
+        /* Override the problematic styles from style.css */
+        body {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        
+        /* Override main element styles that might be causing column layout */
+        main {
+            display: block !important;
+            width: 100% !important;
+        }
+        
+        /* Ensure proper layout for content sections */
+        .book-section {
+            display: block !important;
+            width: 100% !important;
+            columns: unset !important;
+            column-count: unset !important;
+            border-left: none !important;
+            margin-bottom: 20px !important;  /* Just space, no border */
+        }
+        
+        .articles-section,
+        .letters-section {
+            display: block !important;
+            width: 100% !important;
+            columns: unset !important;
+            column-count: unset !important;
+            border-left: none !important;
+            margin-bottom: 20px !important;
+        }
+        
+        /* Remove the border between books entirely */
+        .book-section h2 {
+            margin-top: 0 !important;
+        }
+        
+        /* Remove the rule that was making chapter links too close together */
+    </style>
+</head>
+<body>
+    <div data-include="includes/header.html"></div>
+    <div class="container">
+        <aside class="sidebar">
+            <div data-include="includes/sidebar.html"></div>
+        </aside>
+        <main class="main-content">
+                
+                <!-- Grey header box like Dishonest Money -->
+                <div class="page-header">
+                    <h1>Books, Articles, Letters</h1>
+                </div>
+                
+                <!-- Website conversion notice -->
+                <div class="conversion-notice">
+                    <strong>July 2025:</strong> This website is being moved / converted from "WIX" to HTML. It will take time. Some of the links below might not work.
+                </div>
+                
+                <!-- Books content -->
+                <div class="book-section">
+                    <h2>Pick Your Pieces</h2>
+                    <p>
+                        --<a href="/pick-your-pieces">Acknowledgements</a><br>
+                        --Preface<br>
+                        --Introduction - Quality of Life<br>
+                        --<a href="/pick-your-pieces-1">Chapter 1</a><br>
+                        --<a href="/pick-your-pieces-2">Chapter 2</a><br>
+                        --<a href="/pick-your-pieces-3">Chapter 3</a><br>
+                        --<a href="/pick-your-pieces-4">Chapter 4</a><br>
+                        --<a href="/pick-your-pieces-5">Chapter 5</a><br>
+                        --<a href="/pick-your-pieces-6">Chapter 6</a><br>
+                        -->Purchase a Kindle or hard copy of this book here: <a href="https://amzn.to/3ZOmbv6" target="_blank" rel="noopener noreferrer"><strong>Amazon.com</strong></a>
+                    </p>
+                </div>
+
+                <div class="book-section">
+                    <h2>Tragedy & Hope 101</h2>
+                    <p>
+                        --<a href="/">Introduction</a> - by G. Edward Griffin<br>
+                        --<a href="/">Chapter 1</a> - Democracy<br>
+                        --<a href="/tragedy-and-hope-101-2">Chapter 2</a> - Power Behind the Throne<br>
+                        --<a href="/tragedy-and-hope-101-3">Chapter 3</a> - The Network Recovers America<br>
+                        --<a href="/tragedy-and-hope-101-4">Chapter 4</a> - Money: The Ultimate Instrument<br>
+                        --<a href="/tragedy-and-hope-101-5">Chapter 5</a> - The Main Problem – The Main Solution<br>
+                        --<a href="/tragedy-and-hope-101-6">Chapter 6</a> - Rulers Represent Themselves<br>
+                        --<a href="/tragedy-and-hope-101-7">Chapter 7</a> - Sink the League - Raise the Fascists<br>
+                        --<a href="/tragedy-and-hope-101-8">Chapter 8</a> - False and Designing Men<br>
+                        --<a href="/tragedy-and-hope-101-9">Chapter 9</a> - Realpolitik Revisited<br>
+                        --<a href="/final-thoughts">Final Thoughts / Recommended Reading</a><br>
+                        --<a href="/bonus-material">Bonus Material</a><br>
+                        -->Purchase a Kindle or hard copy of this book here: <a href="http://amzn.to/2chM5pn" target="_blank" rel="noopener noreferrer"><strong>Amazon.com</strong></a>
+                    </p>
+                </div>
+
+                <div class="book-section">
+                    <h2>Leaving The Illusion - Part 1 (Fiction)</h2>
+                    <p>
+                        --<a href="/leaving-the-illusion-intro">Main Page - Introduction</a><br>
+                        --<a href="/leaving-the-illusion-1">Chapter 1</a> - A Dream Come True<br>
+                        --<a href="/leaving-the-illusion-2">Chapter 2</a> - The Hangover<br>
+                        --<a href="/leaving-the-illusion-3">Chapter 3</a> - Red Screen<br>
+                        --<a href="/leaving-the-illusion-4">Chapter 4</a> - Opportunity Knocks<br>
+                        --<a href="/leaving-the-illusion-5">Chapter 5</a> - Full Contact<br>
+                        --<a href="/leaving-the-illusion-6">Chapter 6</a> - Engineering<br>
+                        --<a href="/leaving-the-illusion-7">Chapter 7</a> - Propaganda<br>
+                        --<a href="/leaving-the-illusion-8">Chapter 8</a> - Scientific Chains<br>
+                        --<a href="/leaving-the-illusion-9">Chapter 9</a> - Resistance is Futile<br>
+                        --<a href="/leaving-the-illusion-10">Chapter 10</a> - Eugenics<br>
+                        --<a href="/leaving-the-illusion-11">Chapter 11</a> - No Rights<br>
+                        --<a href="/leaving-the-illusion-12">Chapter 12</a> - Decide<br>
+                        --<a href="/leaving-the-illusion-13">Chapter 13</a> - No Turning Back<br>
+                        -->Purchase a Kindle or hard copy of this novel here: <a href="http://amzn.to/2cTJDkv" target="_blank" rel="noopener noreferrer"><strong>Amazon.com</strong></a>
+                    </p>
+                </div>
+
+                <div class="book-section">
+                    <h2>Dishonest Money</h2>
+                    <p>
+                        --<a href="/dishonest-money-0">Contents - Introduction</a><br>
+                        --<a href="/dishonest-money-0">Acknowledgement</a><br>
+                        --<a href="/dishonest-money-1">Chapter 1</a> - Money is Power<br>
+                        --<a href="/dishonest-money-2">Chapter 2</a> - Something for Nothing<br>
+                        --<a href="/dishonest-money-3">Chapter 3</a> - The Bailout<br>
+                        --<a href="/dishonest-money-4">Chapter 4</a> - Dreaming of a New World Order<br>
+                        --<a href="/dishonest-money-5">Chapter 5</a> - BUILDING a New World Order<br>
+                        --<a href="/dishonest-money-6">Chapter 6</a> - Honest and Dishonest Money<br>
+                        --<a href="/dishonest-money-7">Chapter 7</a> - The World's First Central Bank<br>
+                        --<a href="/dishonest-money-8">Chapter 8</a> - How They Do It<br>
+                        --<a href="/dishonest-money-9">Chapter 9</a> - How We Stop Them<br>
+                        --<a href="/dishonest-money-10">Ten Humans and a Banker</a><br>
+                        --<a href="/ten-humans">We Have the Advantage</a><br>
+                        -->Purchase a Kindle or hard copy of this book here: <a href="http://amzn.to/2csvgWr" target="_blank" rel="noopener noreferrer"><strong>Amazon.com</strong></a>
+                    </p>
+                </div>
+
+                <div class="book-section">
+                    <h2>The One-Hour Guide to Successful Thinking (2004)</h2>
+                    <p>
+                        --<a href="/1-hour-guide-to-successful-thinking">Introduction - Thinking Correctly</a><br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Chapter 1</a> - Attitude and Gratitude<br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Chapter 2</a> - Goals and Success<br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Chapter 3</a> - Visualization<br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Chapter 4</a> - Focus<br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Chapter 5</a> - Money<br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Closing Summary</a><br>
+                        --<a href="/1-hour-guide-to-successful-thinking">Workbook</a>
+                    </p>
+
+                    <div class="book-info-box" style="margin-top: 20px;">
+                        <p><strong>Note:</strong> I wrote and recorded this audio program back in 2003 - 2004. At that point, these concepts had helped me improve my life dramatically and also helped me achieve my financial goals.</p>
+                        
+                        <p>However, the REAL value of these ideas were proven during the 10-year period 2004 - 2014. This is when, to fund a "civic goal" that required full-time research and writing, I exhausted my savings and sold nearly everything I owned. The work itself was very psychologically taxing, and the added financial pressures only added to the challenge, but the age-old ideas outlined in this course helped me finish what I'd started. They kept me moving forward, and my hope is (whatever challenges you face), they'll help you do the same.</p>
+                    </div>
+                </div>
+
+                <div class="book-section">
+    <h2>On Sobriety (HowToStopDrinking.org - an alternative to AA)</h2>
+    <p>
+        --<a href="/how-to-stop-drinking">Home - About</a><br>
+        --<a href="/how-to-stop-drinking#readers-feedback">Readers' Feedback</a><br>
+        --<a href="/how-to-stop-drinking#overview">Overview</a><br>
+        --<a href="/how-to-stop-drinking#history">My History of Idiocy</a><br>
+        --<a href="/how-to-stop-drinking#12-step">The 12-Step Approach</a><br>
+        --<a href="/how-to-stop-drinking#power-thoughts">The Power of Thoughts</a><br>
+        --<a href="/how-to-stop-drinking#self-image">The Power of Self Image</a><br>
+        --<a href="/how-to-stop-drinking#destroying-desire">Destroying Your Desire to Drink</a><br>
+        --<a href="/how-to-stop-drinking#moving-on">Moving on / Final Thoughts</a><br>
+        --<a href="/how-to-stop-drinking#questions">Questions and Answers</a>
+    </p>
+</div>
+
+                <div class="book-section">
+                    <h2>The 1-Hour Guide to 911</h2>
+                    
+                    <p><a href="/1-hour-guide-to-911"><strong>Part 1- No Tinfoil Hat Required:</strong></a> So let's get to the point: Is it REALLY baseless idiocy that drives people to question the official account of 911? Are the millions of Americans (which include Senators, FBI agents, Doctors, Lawyers, Professors, Scientists, Engineers, etc.) all paranoid loons for suggesting a TRULY independent investigation of 911 is needed? --Continue Reading</p>
+                    
+                    <p><a href="/1-hour-guide-to-911"><strong>Part 2 - The Reason They Lie:</strong></a> The history of unchecked power is clear; its tyrannical course, unavoidable. Over and over we have seen the maxim "absolute power corrupts absolutely" played out before us. Personally, I believe those who seek absolute power are already corrupt, but there's no need to split hairs; in the end the same holds true: It is never absurd to question the statements, motives, or actions of extremely powerful people. To the contrary, all evidence suggests it is absurd not to. --Continue Reading</p>
+                    
+                    <p><a href="/1-hour-guide-to-911"><strong>Part 3 - The Cover Up:</strong></a> The evidence to support the government's claim that fire destroyed all three buildings has no basis in reality...the "evidence" exists only in the form of words. There is no historical data to back their assertions, only historical data to refute them. No models have been able to physically reproduce the phenomena they describe because (as expected) the laws of physics cannot be violated. --Continue Reading</p>
+                    
+                    <p><a href="/1-hour-guide-to-911"><strong>Part 4 - The Evidence:</strong></a> For the record, few in the scientific community doubt that it's theoretically possible for a building to experience failure if it is subjected to devastating heat for a sufficient period of time. And additional factors like no fire-proofing, no sprinkler systems, insufficient steel to "bleed off" heat or inferior construction greatly increase the possibility. However, what is "doubted" (or more accurately; considered downright impossible) is that such a failure would resemble anything like what was witnessed on 9/11. ...Gradual, isolated, asymmetrical failures spread out over time; perhaps. Simultaneous disintegration of all load bearing columns (leaving a pile of neatly folded rubble a few stories high), no way. --Continue Reading</p>
+                    
+                    <p><a href="/1-hour-guide-to-911"><strong>Closing Summary - The 911 Truth Movement:</strong></a>
+                    The main goal of the 9/11 truth movement is (logically enough) to uncover the truth of what really happened on 9/11. Those charged with writing the official government theory (the 9/11 Commission) promised us "the fullest possible account." However, by limiting the parameters of their investigation (to "avoid placing blame") their stated goal became impossible. Vital evidence was ignored and, even when they suspected they were being lied to, nobody was held accountable. --Continue Reading</p>
+                </div>
+
+                <div class="articles-section">
+                    <h2>Articles / Letters</h2>
+                    
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 20px;">• <a href="/let-government-print-the-money"><strong>Don't Let Government Print Money:</strong></a> The number of people who understand the Federal Reserve System is growing every day, and that is very bad news for the FED. Perhaps most amazing is that anti-FED consensus is forming among two seemingly irreconcilable camps: Those who trust in "big government" and those who do not.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="http://youtu.be/6trQWEyNf3g" target="_blank" rel="noopener noreferrer"><strong>More Establishment-Media Manipulation (Video):</strong></a> VOTE PARTY, IGNORE PRINCIPLES, THE CANDIDATE YOU REALLY WANT CAN'T WIN!!</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="http://youtu.be/IuKNaiZvgAE" target="_blank" rel="noopener noreferrer"><strong>The Most Dangerous Foreign Policy (with Audio / Video):</strong></a> --Newt Gingrich says that Ron Paul's foreign policy is dangerous to the survival of the United States. ...Newt Gingrich has it exactly backwards. The most dangerous foreign policy for our survival is the policy of bankruptcy.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/beating-the-establishment"><strong>It's About Beating The Establishment (with Audio / Video):</strong></a> --So, as you watch the next few minutes of video and as you see with your own eyes how the Establishment is doing whatever it can to manipulate you into making 'the right choice,' I want you to keep just one thing in mind: This election isn't about beating Barack Obama. It's about beating the people who Barack Obama serves. This election isn't about beating Mitt Romney or Newt Gingrich. It's about beating the people that either of those men will serve.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/challenging-my-senator"><strong>Challenging My Senator on NDAA:</strong></a> --Thief, rapist, murderer or terrorist...the crime that an individual is accused of does not alter the process by which guilt is determined. Nobody opposes this law because they want to protect 'terrorists,' they oppose it because they want to protect people who are FALSELY ACCUSED of being terrorists or 'associated' with terrorists.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/giffords-shooter-a-tea-partier-who"><strong>Gifford's Shooter a "Tea Partier?" Who Cares?:</strong></a> This deceptive practice of holding up ONE deranged man's actions as something that "represents" millions of other people (people who would NEVER encourage or participate in the heinous act) needs to end. It's a lie.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/break-free"><strong>Break Free from Left vs Right:</strong></a> I still receive emails almost daily from people who point out what's wrong with "the left" or "the right." I hope this post will provide another perspective...The "left / right" paradigm is an instrument of control. It's designed to keep us divided and at each others' throats. (Classic "balance-of-power" politics. Play two sides against each other, weaken both sides and gain power in the process.)</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/game-change"><strong>"Game Change" is Number 1:</strong></a> --Unfortunately, those who "pull the wires of the public mind" (via their control of the consolidated media, the government and education system) will never "guide the world" in a way that weakens their position of power. In fact, they will do everything they can to lure the masses (with shiny objects, scandals, sex, gossip, etc.) away from discovering the meaning of "substantive thought" or truth.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/im-not-anti-government"><strong>I'm not anti government. I'm anti crime:</strong></a> --The main difference between you and I is you WANT others to tell you what you can and cannot do. You believe others are qualified to do this and that they only seek this power with "your best interests in mind." I know that is absolute bullshit because I've studied history (recent and past.) I refuse to sit back and be ruled by people who are morally inferior to me. (Those who lie, cheat, steal, murder, maim, enslave, threaten, etc., while CLAIMING that they are "the good guys.")</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/dont-audit-the-fed"><strong>Why I do NOT want to audit the Fed:</strong></a> I know many people are very excited about Ron Paul's bill (HR 1207) to audit the Federal Reserve. I am NOT excited about it and here is why.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/regaining-control"><strong>On Regaining Control:</strong></a> 1. Until we cut off the DC criminals' funding, we're wasting our time. So long as they can simply confiscate or PRINT what we must earn, they'll continue to purchase whatever people and power they need while we, at best, can only afford to fight some of their worst violations. ...we stamp out one fire, they crank up their money machine and light 10 more.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/if-i-only-had-a-gun"><strong>20/20's anti-gun special:</strong></a> The ABC piece opens with a simulated school shooting. Armed students are "tested" against a "shooter" in the classroom to see how they'd do, but the scenario shown is totally unrealistic. (The "shooter" used for this demonstration is obviously a highly-trained marksman with tactical experience. He bursts into a room full of 20 people, seems to know exactly which student is armed, and "takes him out" with beautifully placed head and chest shots within seconds...)</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/double-standard"><strong>Double Standard:</strong></a> In short, we would never accept our military or law enforcement employing these means in America, we sure as Hell wouldn't accept another country employing them either. (Regardless of how despicable the "main target" was.) But that's where the common sense standard splits off into a double standard.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/missing-dollar"><strong>The "Missing Dollar" Riddle:</strong></a> (Since this riddle is still going around, I figured I'd go ahead and post the solution. Who knows, maybe somebody looking for an answer to this will find some other answers that are a LOT more important)</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/on-global-warming"><strong>On Global Warming:</strong></a> --I will assume you want to reduce the man-made contribution of C02 (about 12 PPM) to zero. Based on our current situation, that will put the earth's C02 at 368 PPM. Are you suggesting you can keep the PPM at 368? That is, are you suggesting there is a way to control the earth's natural production of C02 so that it cannot fluctuate even 5%? Since this number (368 PPM) is historically very LOW for C02 and since atmospheric C02 has risen and fallen THOUSANDS of PPM in the past, I just don't understand the "premise" of the "man-made global warming" hysteria.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/fed-supporters"><strong>Federal Reserve System "supporters":</strong></a> --A good prosecutor picks out the best evidence to make his / her case. The real "case" to be made here (in my opinion) is that our fractional reserve banking system is a predatory and dangerous system. It benefits the few at the expense of the many and it is "The Fed" (sitting at the top of the banking system) that directs everything. All the evidence needed to make this case is readily available.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/zeitgeist-addendum"><strong>Zeitgeist Addendum</strong></a> (Review w/ link to movie) --Unfortunately, the moneyless society concept was not presented well. From the idea that people would suddenly stop exploiting, murdering, raping, and dominating others (sorry folks, some people truly enjoy hurting others as much as you enjoy helping others) to the idea that "competition" and "class separation" and "scarcity" would evaporate.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/obsession"><strong>Obsession: Radical Islam's War Against the West</strong></a> (Review w/ link to movie trailer) Watch the 12-minute trailer of Obsession: Radical Islam's War Against the West and you'll get a good idea of what to expect: Fear mongering and lies by omission.<br><br>
+                        For instance, the trailer implies the "Radicals" are just making up an excuse to fear "the west." Is anyone so ignorant as to accept this premise? Has anyone told the producers of this film that "<a href="http://en.wikipedia.org/wiki/Operation_ajax" target="_blank" rel="noopener noreferrer">Operation Ajax</a>" is now DECLASSIFIED and admitted? (You know, where the CIA went into Iran in 1953 and, using false flag attacks, overthrew the democratically elected government of Mohammad Mosaddeq. That the CIA then installed the ruthless dictator, The Shah, who brutalized the people of Iran until he was overthrown in 1979?) If that doesn't count as open "aggression" I don't know what does.<br><br>
+                        Seriously though, why go back that far? Just look at Iraq. Read the Project for a New American Century's "Rebuilding America's Defenses" report (written in September of 2000.) In it you will find this little gem that explains exactly why hundreds of thousands of innocent Iraqi men, woman and children are now dead.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/dishonest-money-10"><strong>Ten Humans and a Banker:</strong></a><br>
+                        Ten humans decide they want to start their own community, but they have no common "money" to build their economy on. A banker from a nearby town agrees to help them out. He loans each person $10 (money that he simply "prints up" in his basement) and agrees to accept "interest only" payments on the loans at a rate of 10%. (A tiny $1.00 interest payment per person, per year.)<br><br>
+                        So, the new community begins with a total money supply of $100. Prices in the community are set according to this money supply and everything seems fine. At the end of the first year, the banker gathers everyone together to collect his interest. Each of the ten people surrenders their $1 "interest only" payment, but none of them stops to consider that, after making the payment, all ten of them still owe the banker $10 each. How can everyone pay their debt if the community's total money supply is now only $90? There are no longer enough dollars in circulation to pay the banker the $100 he is owed.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/on-torture"><strong>On Torture:</strong></a> If the thought of innocent people being SOLD into secret dungeons and held without charges doesn't bother you; if the idea of those same people being tortured (sometimes to death) doesn't bother you; if you're so hopelessly terrified that the thought of desecrating everything enshrined in our Constitution doesn't bother you, maybe this will...</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/nothing-has-changed"><strong>Ron Paul and the future: Nothing has changed:</strong></a> Today, the Federal government controlling these "United States of America" is an outright abomination. At the highest levels, its members ignore with impunity the "Supreme Law" they swore an oath to Preserve, Protect, and Defend. Not even the illusion of "accountability" remains.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/how-will-you-pay-for-it"><strong>HOW WILL YOU PAY FOR IT?:</strong></a> Will you continue going, with your hand out and your "hopes high" to the Communist Chinese? ...Allowing the Chinese, literally, to "set" America's foreign policy budget? And if so, is our country really "safe" when the best plan its leaders have crafted depends entirely on the generosity of a foreign (communist) government? Is that your plan?</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/a-days-wage"><strong>Funding the (second) American Revolution:</strong></a> You see, where (the Founding Fathers) had to defeat a seemingly invincible army against "impossible odds," we do not (as of now) have to overcome that obstacle. Where they had to suffer the process of creating a truly revolutionary form of government from scratch, we do not have to bear that burden. Where they had to face and endure challenges most of us cannot possibly imagine, the "battle" we must face and the "sacrifice" required of us are both embarrassingly minor. As a matter of fact, they hardly qualify as a "battle" or "sacrifice" at all.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/your-money-or-your-life"><strong>Your Money or Your Life:</strong></a> Do people deserve to die because they refuse to pay taxes to a corrupt and criminal government? And when armed men, representing that corrupt and criminal government, show up on YOUR property, with the intent to capture or kill you, do you not have the right to defend yourself and your family? --Those who serve the system; those willing to KILL nonviolent citizens for refusing to submit, are little more than mercenaries. They are hired guns; they become criminals themselves.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/would-it-be-ok"><strong>The Politics of Terror:</strong></a> There they are at the podium; shamelessly pressing the fear button and exploiting the trauma of 9/11. -Selling us on the virtue of torture, wars of aggression, secret arrests and kangaroo courts. -Manipulating those who still trust them into accepting the unacceptable and defending the indefensible.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/the-911-lie-is-in-critical-conditio"><strong>The 9/11 Lie is in Critical Condition:</strong></a> There was a time, not long ago, when daring to question the official account of 9/11 was risky business. One was almost guaranteed to be attacked as a "crazy person" or a "traitor" or a "terrorist sympathizer." Times have changed. At this point, less than 20% of the population believes they were given the full truth regarding 9/11. Logically one might ask: "Why is that?"</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/on-being-short"><strong>...On Being Short</strong></a> (-A break from the daily carnage to address garden variety idiocy.) God help me, should I just kill myself now? (Or should I thank my lucky stars I've NEVER accepted conventional wisdom as anything more than the hopelessly unreliable pile of shit that it tends to be...)</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/bill-mahers-message-board"><strong>Bill Mahers Message Board:</strong></a> The black ops arm of our government is anything BUT "incompetent." Using lies, deception and yes FALSE FLAG TERRORISM, they've overthrown and controlled countless governments (and manipulated countless populations) for hundreds of years. With a little effort on your part, you can verify every word of it.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/cut-and-run-or-stay-the-course"><strong>Cut and run or Stay the course?:</strong></a> Having made these points, it's clear Al Qaeda and their handful of followers are gaining the most from the war in Iraq, the loss of goodwill toward America and the erosion of our founding principles here at home. Since those responsible for these polices have no intention of changing their approach (despite their history of being wrong on nearly everything) I think it's fair to say: A vote to "stay the course" is a vote to weaken America and empower its enemies. The time is long past due to "cut and run" from those who've led our country astray.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/what-if"><strong>Imagine If...</strong></a> Imagine if the government would have come out within a week of the 9/11 attacks and said: "Once again, terrorists placed and detonated bombs in the WTC; only this time, they succeeded in their goal of bringing our towers down."<br><br>
+                        As proof; imagine they showed us video tape of buildings collapsing at near free-fall speed. Analysts point out explosive squibs 20 stories beneath the collapse point. They address hard physical evidence like molten metal and completely pulverized concrete. We hear hundreds of first hand accounts from firemen, police, journalists and regular citizens explaining the terrible sounds (and shockwaves) as bombs went off all around them.<br><br>
+                        Now imagine a "movement" begins that aims to challenge the government's official account. Ignoring all of known history (and all of the available evidence) this movement declares it was "FIRE" not bombs that brought down the buildings.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/freedumb"><strong>FreeDumb</strong></a> (Satire): George Bush is the embodiment of freedom. In fact, if freedom were a God, George Bush would be the son of that God. He quite literally is "freedom incarnate." As such, despite what whack jobs would have you believe, nothing George Bush does can undermine freedom. To suggest otherwise is sheer lunacy; like suggesting the sun is undermining daylight.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/the-big-government-shell-game"><strong>The Big Government Shell Game:</strong></a> Big government is a weapon like no other. As if by magic, it can turn blatant criminal action into something perceived as "good and noble." Whether you want to gain an unfair advantage over emerging competition, fund a project that nobody would ever willingly pay for, or earn hundreds of billions of dollars from the slaughter of innocent civilians around the world; NOTHING can deliver like big government.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/terror-power"><strong>Terror, Power, and NeoConservative Ideology:</strong></a> Make no mistake, their ultimate aim is the destruction of our Constitution and Bill of Rights. -In that alone, their ultimate aim is the destruction of America. They've suggested another major attack on an American city could be all it takes to implement "emergency powers" and a "military form of government." You tell me: Will they get their way? Will YOU concede and fall in line, or will you stand with the rest of us who are committed to defending America from ALL ENEMIES? (Foreign and Domestic.) Time will tell.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/universal-pictures"><strong>It Was Fun While it Lasted:</strong></a> It looks like Universal Pictures decided to take down their "Flight 93" forum. In all honesty, I'm shocked they didn't do it sooner. The boards were quickly overrun with visitors DESTROYING the government's account of 9/11. -From a commercial standpoint, that can't help you "sell" a movie based solely on the government's version of events.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/freedom"><strong>Freedom:</strong></a> Endless wars for our demise, endless evil in disguise..every crime is "noble" when the rulers are divine. Scheming tyrants bought the show, to lead us where we'd never go...and now the truth is something they can never let us find.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/privacy-rights"><strong>On Privacy Rights:</strong></a> As Americans, we can scream until we're blue in the face that "we are a nation of laws" and as such "nobody is above the law" -but if we do not hold those who violate the law accountable; our words mean nothing, our laws mean nothing, our Constitution and Bill of Rights mean nothing.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/government-without-income-tax"><strong>Government Without Income Tax:</strong></a> When discussing the issue of "taxation" the average American has a tendency to defend "income tax" as being necessary to run our government. (Here, that very point is made by a visitor to StopTheLie.com.) Hopefully this short article will put the issue into its proper perspective.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/everybody-loves-martial-law"><strong>Everybody Loves Martial Law:</strong></a> What will they tell us next? Will they claim people are dancing in the streets because they've been forcibly disarmed. -Or maybe that they're thrilled to be getting shipped off to the "safety" of a concentration camp?</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/ten-humans"><strong>We Have the Advantage:</strong></a> Taking a serious look at government "wrong doing" is no easy task. -Not because the damning evidence is hard to find, but because the truth (once found) is very hard to swallow.</li>
+                        
+                        <li style="margin-bottom: 20px;">• <a href="/live-free-or-die"><strong>Live FREE or DIE:</strong></a> There is no higher TREASON against this country than that of government officials who are openly conspiring to undue our constitution in the name of "keeping us safe." It is the most ABSURD and counter-intuitive suggestion that could be made. It is the equivalent of suggesting that we all burn down our houses to protect ourselves from "the arsonists."</li>
+                    </ul>
+                </div>
+
+                <div class="letters-section">
+                    <h2>Letters</h2>
+                    <p><em>(After January 2008, new letters that are posted will be posted above)</em></p>
+                    
+                    <ul style="list-style: none; padding-left: 0;">
+                        <li style="margin-bottom: 20px;">• Impressive collection of info - Who are you - What are you trying to Achieve?<br>
+                        <a href="/letter1">Response HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 3.8.05 --> In response to the Popular Mechanics Piece<br>
+                        <a href="/letter5">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 6.17.05 --> A Letter to George Noory (Regarding his "911 Roundtable Discussion" on 6.16.05)<br>
+                        <a href="/letter7">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 1.5.06 --> Bill Oreilly Vs David Letterman (In defense of Dave)<br>
+                        <a href="/letter-to-dave">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 3.31.06 --> Doug Thompson (Capital Hill Blue) says we've got it wrong<br>
+                        <a href="/doug-thompson">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 7.19.06 --> Reply to an Engineering Professor Emeritus<br>
+                        <a href="/an-engineering-proofessor">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 8.27.06 --> Message sent to NH Senator Judd Gregg regarding 9/11<br>
+                        <a href="/jedd-gregg">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 9.15.06 --> Radical Islam and other assorted BS<br>
+                        <a href="/radical-islam-and-other-assorted-bs">Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 4.30.07 --> Some 911 questions answered<br>
+                        <a href="/some-911-questions">Letter 13, Click HERE</a></li>
+                        
+                        <li style="margin-bottom: 20px;">• Added 1.15.08 --> Reptile "Reasoning"<br>
+                        <a href="/neocortex">Letter 14, Click HERE</a></li>
+                    </ul>
+                </div>
+
+        </main>
+    </div>
+    <div data-include="includes/footer.html"></div>
+</body>
+</html>
